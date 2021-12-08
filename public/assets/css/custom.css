@@ -1,0 +1,268 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.load-more .item {
+  display: block;
+}
+
+.item-details-area .netstorm-tab li a {
+  cursor: pointer;
+}
+
+.react-share__ShareButton {
+  margin: 5px;
+}
+
+.ReactModal__Overlay {
+  z-index: 99;
+}
+
+.ReactModal__Content {
+  width: 50%;
+}
+
+.own-class {
+  color: white;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 21px;
+  width: 2px;
+  background-color: white;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.checkout,
+.subtotal,
+.total {
+  border-top: 1px solid #4528DC;
+  border-bottom: 1px solid #4528DC;
+  padding: 10px;
+}
+
+.checkout {
+  padding: 50px 10px;
+}
+
+.checkout label {
+  display: block;
+  color: white;
+}
+
+
+.css-42igfv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.social-icon .social-container{
+  background-color: var(--footer-bg-color);
+}
+
+.items .item {
+  cursor: pointer;
+}
+
+.wallet-btn {
+  font-size: 13px;
+  padding: 8px 17px;
+}
+
+.check-input {
+  width: 50%;
+  height: 30px;
+}
+
+.check-div {
+  margin: 10px 0;
+}
+
+header .navbar-expand .navbar-nav .nav-item a:not(.btn) {
+  font-size: 0.9rem;
+}
+
+section {
+  margin-bottom: 17px;
+}
+
+.card .card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 121px;
+}
+
+.btn-smaller {
+  font-size: 0.8rem;
+  padding: 18px 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hero-section {
+  position: relative;
+  background: rgba(0, 0, 0, 0) url(/img/Banner-Homev1.jpg) no-repeat scroll top center/cover;
+  z-index: 1;
+}
+
+.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/Banner-Homev1.jpg) no-repeat scroll top center/cover;
+}
+
+header .navbar-expand .navbar-nav .nav-link:not(.btn) {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+}
+
+.navbar-nav.icons {
+  cursor: pointer;
+}
+
+.modal-backdrop {
+  width: 0;
+  height: 0;
+}
+
+.checkmark {
+  margin-left: 10px !important;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}
+ 
+.Blog.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Blogv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.ContactUs.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Contactv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.Create.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Createv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.Creators.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Creatorsv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.Explore.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Explore.jpg) no-repeat scroll top center/cover;
+}
+ 
+.HelpCenter.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-HelpCenterv2.jpg) no-repeat scroll top center/cover;
+}
+
+.Login.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Loginv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.AuthorProfile.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-MyProfilev2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.PrivacyTerms.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-PrivacyToSv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.Register.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Registerv2.jpg) no-repeat scroll top center/cover;
+}
+ 
+.HowItWorks.breadcrumb-area {
+  background: rgba(0, 0, 0, 0) url(/img/banners/Banner-HelpCenterv2.jpg) no-repeat scroll top center/cover;
+}
+
+@media (max-width: 576px) {
+
+  .ReactModal__Content {
+    width: 100%;
+  }
+
+  .hero-section {
+    position: relative;
+    background: rgba(0, 0, 0, 0) url(/img/Banner-Homev1-Mobile.jpg) no-repeat scroll top center/cover;
+    z-index: 1;
+  }
+  
+  .breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/Banner-Homev1-Mobile.jpg) no-repeat scroll top center/cover;
+  }
+ 
+  .Blog.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Blog-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .ContactUs.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Contact-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .Create.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Create-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .Creators.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Creators-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .Explore.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Explore-Mobile.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .HelpCenter.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-HelpCenter-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+  
+  .Login.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Login-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .AuthorProfile.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-MyProfile-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .PrivacyTerms.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-PrivacyToS-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .Register.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-Register-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+   
+  .HowItWorks.breadcrumb-area {
+    background: rgba(0, 0, 0, 0) url(/img/banners/Banner-HelpCenter-Mobilev2.jpg) no-repeat scroll top center/cover;
+  }
+}
